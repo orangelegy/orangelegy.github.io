@@ -1,10 +1,10 @@
 :root.appearance-light {
-  --primary-bg-color: #fff;
+  --primary-bg-color: #eee;
   --second-bg-color: #fff;
   --third-bg-color: #f5f5f5;
   --primary-text-color: #4a4a4a;
   --second-text-color: #4a4a4a;
-  --top-bar-bg-color: rgba(255, 255, 255, 0.8);
+  --top-bar-bg-color: rgba(255, 255, 255, 0.7);
   --border-line-color-2: rgba(0, 0, 0, 0.03);
   --border-line-color: rgba(0, 0, 0, 0.05);
   --blockquote-border-color: #dbdbdb;
@@ -22,7 +22,7 @@
   --second-text-color: #aaa;
   --border-line-color: rgba(255, 255, 255, 0.05);
   --border-line-color-2: rgba(255, 255, 255, 0.02);
-  --top-bar-bg-color: rgba(24, 24, 24, 0.8);
+  --top-bar-bg-color: rgba(33, 33, 33, 0.8);
   --blockquote-border-color: #aaa;
   --table-border-color: #aaa;
   --pre-code-bg-color: #ffffff03;
@@ -31,12 +31,12 @@
   --avatar-border-color: rgba(255, 255, 255, 0.05); }
 
 :root.appearance-auto {
-  --primary-bg-color: #fff;
+  --primary-bg-color: #eee;
   --second-bg-color: #fff;
   --third-bg-color: #f5f5f5;
   --primary-text-color: #4a4a4a;
   --second-text-color: #4a4a4a;
-  --top-bar-bg-color: rgba(255, 255, 255, 0.8);
+  --top-bar-bg-color: rgba(255, 255, 255, 0.7);
   --border-line-color-2: rgba(0, 0, 0, 0.03);
   --border-line-color: rgba(0, 0, 0, 0.05);
   --blockquote-border-color: #dbdbdb;
@@ -54,7 +54,7 @@
       --second-text-color: #aaa;
       --border-line-color: rgba(255, 255, 255, 0.05);
       --border-line-color-2: rgba(255, 255, 255, 0.02);
-      --top-bar-bg-color: rgba(24, 24, 24, 0.8);
+      --top-bar-bg-color: rgba(33, 33, 33, 0.8);
       --blockquote-border-color: #aaa;
       --table-border-color: #aaa;
       --pre-code-bg-color: #ffffff03;
