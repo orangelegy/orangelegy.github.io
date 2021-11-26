@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-10-04T13:21:24.523Z</updated>
+  <updated>2021-11-26T10:52:44.117Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>敬请期待</title>
+    <link href="http://example.com/2021/11/26/%E6%95%AC%E8%AF%B7%E6%9C%9F%E5%BE%85/"/>
+    <id>http://example.com/2021/11/26/%E6%95%AC%E8%AF%B7%E6%9C%9F%E5%BE%85/</id>
+    <published>2021-11-26T10:50:00.000Z</published>
+    <updated>2021-11-26T10:52:44.117Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="更新中，敬请期待……"><a href="#更新中，敬请期待……" class="headerlink" title="更新中，敬请期待……"></a>更新中，敬请期待……</h1>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;更新中，敬请期待……&quot;&gt;&lt;a href=&quot;#更新中，敬请期待……&quot; class=&quot;headerlink&quot; title=&quot;更新中，敬请期待……&quot;&gt;&lt;/a&gt;更新中，敬请期待……&lt;/h1&gt;</summary>
+      
+    
+    
+    
+    
+    <category term="预告" scheme="http://example.com/tags/%E9%A2%84%E5%91%8A/"/>
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
