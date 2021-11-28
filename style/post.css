@@ -48,7 +48,7 @@
   will-change: opacity; }
 
 .post-page .post-content a {
-  color: #3273dc; }
+  color: #61afef; }
 
 .post-page .jump-container .button {
   max-width: calc(50% - 5px); }
@@ -77,7 +77,7 @@
     margin-left: 15px;
     list-style: none !important; }
   .post-page .toc .is-active span {
-    color: #3273dc !important; }
+    color: #61afef !important; }
 
 .post-page :target {
   padding-top: 60px;

@@ -362,7 +362,7 @@ body {
 }
 
 a {
-  color: #3273dc;
+  color: #61afef;
   cursor: pointer;
   text-decoration: none;
 }
@@ -515,7 +515,7 @@ a.box:active {
 }
 
 .button:focus, .button.is-focused {
-  border-color: #3273dc;
+  border-color: #61afef;
   color: #363636;
 }
 

@@ -5,7 +5,7 @@
 /* Comment */
 .hljs-comment,
 .hljs-quote {
-  color: #696969;
+  color: rgb(127,132,142);
 }
 
 /* Red */
@@ -17,7 +17,7 @@
 .hljs-selector-class,
 .hljs-regexp,
 .hljs-deletion {
-  color: #d91e18;
+  color: #e06c75;
 }
 
 /* Orange */
@@ -29,12 +29,12 @@
 .hljs-params,
 .hljs-meta,
 .hljs-link {
-  color: #aa5d00;
+  color: #d19a66;
 }
 
 /* Yellow */
 .hljs-attribute {
-  color: #aa5d00;
+  color: #e5c07b;
 }
 
 /* Green */
@@ -42,19 +42,19 @@
 .hljs-symbol,
 .hljs-bullet,
 .hljs-addition {
-  color: #008000;
+  color: #98c379;
 }
 
 /* Blue */
 .hljs-title,
 .hljs-section {
-  color: #007faa;
+  color: #61afef;
 }
 
 /* Purple */
 .hljs-keyword,
 .hljs-selector-tag {
-  color: #7928a1;
+  color: #c678dd;
 }
 
 .hljs {

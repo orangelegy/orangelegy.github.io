@@ -3,7 +3,7 @@
   --primary-bg-color: #f9f9f9;
   --second-bg-color: #fff;
   --third-bg-color: #ebebeb;
-  --code-text-color:#aaa;
+  --code-text-color:rgb(127,132,142);
   --top-bar-shadow-color:#ebebeb;
   --primary-text-color: #4a4a4a;
   --second-text-color: #4a4a4a;
@@ -12,25 +12,25 @@
   --border-line-color: rgba(0, 0, 0, 0.05);
   --blockquote-border-color: #dbdbdb;
   --table-border-color: #dbdbdb;
-  --pre-code-bg-color: rgb(35,36,39);
+  --pre-code-bg-color: rgb(35,39,46);
   --skeleton-bg-color: #f5f5f5;
   --skeleton-flash-color: 0.5;
   --avatar-border-color: #fff; }
 
 :root.appearance-dark {
-  --primary-bg-color: rgb(32,33,36);
-  --second-bg-color: rgb(40,40,40);
+  --primary-bg-color: rgb(30,34,39);
+  --second-bg-color: rgb(35,39,46);
   --third-bg-color: #ffffff14;
-  --code-text-color: #aaa;
+  --code-text-color: rgb(127,132,142);
   --top-bar-shadow-color:#222;
   --primary-text-color: #eee;
   --second-text-color: #aaa;
   --border-line-color: rgba(255, 255, 255, 0.05);
   --border-line-color-2: rgba(255, 255, 255, 0.02);
-  --top-bar-bg-color: rgba(40, 40, 40, 0.7);
+  --top-bar-bg-color: rgba(35,39,46, 0.8);
   --blockquote-border-color: #aaa;
   --table-border-color: #aaa;
-  --pre-code-bg-color: rgb(35,36,39);
+  --pre-code-bg-color: rgb(35,39,46);
   --skeleton-bg-color: #2b2b2b;
   --skeleton-flash-color: 0.05;
   --avatar-border-color: rgba(255, 255, 255, 0.05); }
@@ -39,7 +39,7 @@
   --primary-bg-color: #f9f9f9;
   --second-bg-color: #fff;
   --third-bg-color: #ebebeb;
-  --code-text-color:#aaa;
+  --code-text-color:rgb(127,132,142);
   --top-bar-shadow-color:#ebebeb;
   --primary-text-color: #4a4a4a;
   --second-text-color: #4a4a4a;
@@ -48,25 +48,25 @@
   --border-line-color: rgba(0, 0, 0, 0.05);
   --blockquote-border-color: #dbdbdb;
   --table-border-color: #dbdbdb;
-  --pre-code-bg-color: rgb(35,36,39);
+  --pre-code-bg-color: rgb(35,39,46);
   --skeleton-bg-color: #f5f5f5;
   --skeleton-flash-color: 0.5;
   --avatar-border-color: #fff; }
   @media (prefers-color-scheme: dark) {
     :root.appearance-auto {
-      --primary-bg-color: rgb(32,33,36);
-      --second-bg-color: rgb(40,40,40);
+      --primary-bg-color: rgb(30,34,39);
+      --second-bg-color: rgb(35,39,46);
       --third-bg-color: #ffffff14;
-      --code-text-color: #aaa;
+      --code-text-color: rgb(127,132,142);
       --top-bar-shadow-color:#222;
       --primary-text-color: #eee;
       --second-text-color: #aaa;
       --border-line-color: rgba(255, 255, 255, 0.05);
       --border-line-color-2: rgba(255, 255, 255, 0.02);
-      --top-bar-bg-color: rgba(40, 40, 40, 0.7);
+      --top-bar-bg-color: rgba(35,39,46, 0.8);
       --blockquote-border-color: #aaa;
       --table-border-color: #aaa;
-      --pre-code-bg-color: rgb(35,36,39);
+      --pre-code-bg-color: rgb(35,39,46);
       --skeleton-bg-color: #2b2b2b;
       --skeleton-flash-color: 0.05;
       --avatar-border-color: rgba(255, 255, 255, 0.05); } }
@@ -101,15 +101,15 @@
     color: inherit; }
     :root body a:hover, :root body a:hover .iconfont {
       text-decoration: none;
-      color: #3273dc !important; }
+      color: #61afef !important; }
   :root body .tag.post-item-tag {
     margin-right: 5px;
     font-weight: bold;
-    color: darkorange;
+    color: #98c379;
     font-style: normal;
     border-radius: 10px;
     background: transparent;
-    border: 2px solid darkorange; }
+    border: 2px solid #98c379; }
   :root body .button.is-default {
     height: 40px;
     border: none;
