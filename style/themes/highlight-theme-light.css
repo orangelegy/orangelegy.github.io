@@ -60,9 +60,12 @@
 .hljs {
   display: block;
   overflow-x: auto;
-  background: #fefefe;
-  color: #545454;
+  /* background: #fefefe; */
+  /* color: #fefefe; */
   padding: 0.5em;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: Consolas,圆体-简,圆体-繁;
 }
 
 .hljs-emphasis {

@@ -376,10 +376,11 @@ a:hover {
 }
 
 code {
-  background-color: whitesmoke;
-  color: #da1039;
-  font-size: 0.875em;
-  font-weight: normal;
+  font-family: Consolas,圆体-简,圆体-繁;
+  background-color: #333;
+  color: var(--second-text-color);
+  font-size: 1em;
+  font-weight: bold;
   padding: 0.25em 0.5em 0.25em;
 }
 
