@@ -29,10 +29,10 @@
 
 .post-page .post-content pre {
   padding: 0;
-  background: transparent; }
+  background: transparent;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); }
   .post-page .post-content pre code {
     padding: 15px;
-    border: 1px solid var(--border-line-color);
     background: var(--pre-code-bg-color); }
 
 .post-page .post-content .hljs {
@@ -43,7 +43,7 @@
   margin: 0 auto;
   max-height: 500px;
   border-radius: 6px;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
   opacity: 0;
   will-change: opacity; }
 

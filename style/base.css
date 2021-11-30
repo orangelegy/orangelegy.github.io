@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("//at.alicdn.com/t/font_2266068_otkvzqnxk0g.css");
 :root.appearance-light {
   --primary-bg-color: #f9f9f9;
@@ -18,8 +19,8 @@
   --avatar-border-color: #fff; }
 
 :root.appearance-dark {
-  --primary-bg-color: rgb(30,34,39);
-  --second-bg-color: rgb(35,39,46);
+  --primary-bg-color: hsl(220, 13%, 18%);
+  --second-bg-color: rgba(16, 17, 20, 0.5);
   --third-bg-color: #ffffff14;
   --code-text-color: rgb(127,132,142);
   --top-bar-shadow-color:#222;
@@ -30,7 +31,7 @@
   --top-bar-bg-color: rgba(35,39,46, 0.8);
   --blockquote-border-color: #aaa;
   --table-border-color: #aaa;
-  --pre-code-bg-color: rgb(35,39,46);
+  --pre-code-bg-color: rgba(16, 17, 20, 0.5);
   --skeleton-bg-color: #2b2b2b;
   --skeleton-flash-color: 0.05;
   --avatar-border-color: rgba(255, 255, 255, 0.05); }
@@ -54,8 +55,8 @@
   --avatar-border-color: #fff; }
   @media (prefers-color-scheme: dark) {
     :root.appearance-auto {
-      --primary-bg-color: rgb(30,34,39);
-      --second-bg-color: rgb(35,39,46);
+      --primary-bg-color: hsl(220, 13%, 18%);
+      --second-bg-color: rgba(16, 17, 20, 0.5);
       --third-bg-color: #ffffff14;
       --code-text-color: rgb(127,132,142);
       --top-bar-shadow-color:#222;
@@ -66,7 +67,7 @@
       --top-bar-bg-color: rgba(35,39,46, 0.8);
       --blockquote-border-color: #aaa;
       --table-border-color: #aaa;
-      --pre-code-bg-color: rgb(35,39,46);
+      --pre-code-bg-color: rgba(16, 17, 20, 0.5);
       --skeleton-bg-color: #2b2b2b;
       --skeleton-flash-color: 0.05;
       --avatar-border-color: rgba(255, 255, 255, 0.05); } }
@@ -96,7 +97,8 @@
 :root body {
   margin: 0;
   height: 100vh;
-  padding-top: 45px; }
+  padding-top: 45px;
+  font-family: 圆体-简,圆体-繁; }
   :root body a {
     color: inherit; }
     :root body a:hover, :root body a:hover .iconfont {
