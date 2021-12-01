@@ -112,7 +112,7 @@
   .post-container .profile-widget .user-name {
     font-size: 18px;
     font-weight: bold;
-    margin: 15px 0 2px; }
+    margin: 15px 0 10px; }
   .post-container .profile-widget blockquote:before {
     content: '“';
     margin-right: 5px;
