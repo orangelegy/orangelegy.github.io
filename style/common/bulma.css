@@ -268,7 +268,7 @@ h6 {
   font-size: 100%;
   font-weight: normal;
   line-height: 1em;
-  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
+  
 }
 
 ul {
@@ -2063,40 +2063,6 @@ fieldset[disabled] .button {
   width: 100%;
 }
 
-/* .content table td,
-.content table th {
-  border: 1px solid #dbdbdb;
-  border-width: 0 0 1px;
-  padding: 0.5em 0.75em;
-  vertical-align: top;
-}
-
-.content table th {
-  color: #363636;
-}
-
-.content table th:not([align]) {
-  text-align: inherit;
-}
-
-.content table thead td,
-.content table thead th {
-  border-width: 0 1px 2px 0px;
-  color: #363636;
-}
-
-.content table tbody tr:last-child td,
-.content table tbody tr:last-child th {
-  border-bottom-width: 0;
-  border-right-width: 0;
-}
-
-/* .content table tfoot td,
-.content table tfoot th {
-  border-width: 2px 0 0;
-  color: #363636;
-} */
-
 .content table tbody tr:last-child td,
 .content table tbody tr:last-child th {
   border-bottom-width: 0;
@@ -2122,14 +2088,6 @@ fieldset[disabled] .button {
   padding: 0;
 }
 
-.content table tbody tr:nth-child(2n) {
-  background-color: rgb(35, 40, 46);
-}
-
-.content table tbody tr:nth-child(2n + 1) {
-  background-color: rgb(40, 44, 52);
-}
-
 .content table tr td {
   /* border-left: 1px solid rgb(23, 23, 24); */
   /* border-right: 1px solid rgb(100, 104, 116); */
@@ -2147,6 +2105,8 @@ fieldset[disabled] .button {
 .content table tr td:last-child {
   border-right-width: 0px;
 }
+
+
 .content .tabs li + li {
   margin-top: 0;
 }
