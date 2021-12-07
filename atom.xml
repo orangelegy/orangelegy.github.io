@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-11-29T07:00:13.565Z</updated>
+  <updated>2021-12-07T11:23:04.127Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,81 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>JavaScript笔记</title>
+    <link href="http://example.com/2021/12/07/JavaScript%E7%AC%94%E8%AE%B0/"/>
+    <id>http://example.com/2021/12/07/JavaScript%E7%AC%94%E8%AE%B0/</id>
+    <published>2021-12-07T11:22:17.000Z</published>
+    <updated>2021-12-07T11:23:04.127Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>tips：<code>prompt()</code>取过来的值是字符型</p></blockquote><h3 id="数据类型转换"><a class="markdownIt-Anchor" href="#数据类型转换"></a> 数据类型转换</h3><p>1.转换为字符串</p><pre class="highlight"><code class="javascript"><span class="hljs-keyword">var</span> num = <span class="hljs-number">1</span>;<span class="hljs-built_in">console</span>.log(num.toString);<span class="hljs-comment">// 1.toString()</span><span class="hljs-built_in">console</span>.log(<span class="hljs-built_in">String</span>(num));<span class="hljs-comment">// 2.String()强制转换</span><span class="hljs-built_in">console</span>.log(num + <span class="hljs-string">"我是字符串"</span>)<span class="hljs-comment">// 3.加号拼接字符串</span></code></pre><p>2.转换为数字型*</p><pre class="highlight"><code class="javascript"><span class="hljs-keyword">var</span> age = prompt(<span class="hljs-string">'请输入您的年龄'</span>)；<span class="hljs-comment">// 获取的值为字符型</span><span class="hljs-comment">// 1.parseInt()转换为整数数值型</span><span class="hljs-built_in">console</span>.log(<span class="hljs-built_in">parseInt</span>(age));<span class="hljs-built_in">console</span>.log(<span class="hljs-built_in">parseInt</span>(<span class="hljs-string">'3.14'</span>));<span class="hljs-comment">// 返回 3 （不进行四舍五入）</span><span class="hljs-built_in">console</span>.log(<span class="hljs-built_in">parseInt</span>(<span class="hljs-string">'120px'</span>));<span class="hljs-comment">// 返回 120</span><span class="hljs-built_in">console</span>.log(<span class="hljs-built_in">parseInt</span>(<span class="hljs-string">'rem120px'</span>));<span class="hljs-comment">// 返回 NaN</span><span class="hljs-comment">// 2.parseFloat()转换为浮点数数值型</span><span class="hljs-built_in">console</span>.log(<span class="hljs-built_in">parseFloat</span>(<span class="hljs-string">'3.14'</span>));<span class="hljs-comment">// 返回 3.14</span><span class="hljs-built_in">console</span>.log(<span class="hljs-built_in">parseFloat</span>(<span class="hljs-string">'120px'</span>));<span class="hljs-comment">// 返回 120</span><span class="hljs-built_in">console</span>.log(<span class="hljs-built_in">parseFloat</span>(<span class="hljs-string">'rem120px'</span>));<span class="hljs-comment">// 返回 NaN</span><span class="hljs-comment">// 3.Number()强制转换</span><span class="hljs-built_in">console</span>.log(<span class="hljs-built_in">Number</span>(<span class="hljs-string">'123'</span>));<span class="hljs-comment">// 4.利用算术运算符 - * / 隐式转换</span><span class="hljs-built_in">console</span>.log(<span class="hljs-string">'12'</span> - <span class="hljs-number">0</span>);<span class="hljs-comment">// 12</span><span class="hljs-built_in">console</span>.log(<span class="hljs-string">'12'</span> - <span class="hljs-string">'10'</span>);<span class="hljs-comment">// 2</span><span class="hljs-built_in">console</span>.log(<span class="hljs-string">'12'</span> * <span class="hljs-number">1</span>);<span class="hljs-comment">// 12</span></code></pre><p>3.转换为布尔值</p><ul><li>利用<code>Boolean()</code>强制转换</li><li><code>' '</code> <code>0</code> <code>NaN</code> <code>null</code> <code>undefined</code> 转换为 false</li><li>其余值都会被转换为true</li></ul><blockquote><p>tips：利用<code>==</code>进行比较时，默认转换数据类型，会把字符串型数据转换为数字型</p></blockquote><h3 id="短路运算逻辑中断"><a class="markdownIt-Anchor" href="#短路运算逻辑中断"></a> 短路运算（逻辑中断）</h3><p><strong>短路运算的原理</strong>：当有多个表达式（值）时，左边的表达式值可以确定结果时，就不再继续运算右边的表达式的值。</p><p>1.逻辑与</p><ul><li>语法：<code>表达式1 &amp;&amp; 表达式2</code></li><li>如果<code>表达式1</code>为真，则返回<code>表达式2</code></li><li>如果<code>表达式1</code>为假，则返回<code>表达式1</code></li></ul><p>2.逻辑或</p><ul><li>同上</li></ul><blockquote><p>tips：逻辑中断很重要，可能会影响运算结果</p></blockquote><h3 id="运算符优先级"><a class="markdownIt-Anchor" href="#运算符优先级"></a> 运算符优先级</h3><table><thead><tr><th>优先级</th><th>运算符</th><th>顺序</th></tr></thead><tbody><tr><td>1</td><td>小括号</td><td><code>()</code></td></tr><tr><td>2</td><td>一元运算符</td><td><code>++</code> <code>--</code> <code>!</code></td></tr><tr><td>3</td><td>算数运算符</td><td>先<code>*</code> <code>/</code> <code>%</code>  后<code>+</code> <code>-</code></td></tr><tr><td>4</td><td>关系运算符</td><td><code>&gt;</code> <code>&gt;=</code> <code>&lt;</code> <code>&lt;=</code></td></tr><tr><td>5</td><td>相等运算符</td><td><code>==</code> <code>!=</code> <code>===</code> <code>!==</code></td></tr><tr><td>6</td><td>逻辑运算符</td><td>先<code>&amp;&amp;</code>  后<code>||</code></td></tr><tr><td>7</td><td>赋值运算符</td><td><code>=</code></td></tr><tr><td>8</td><td>逗号运算符</td><td><code>,</code></td></tr></tbody></table>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;tips：&lt;code&gt;prompt()&lt;/code&gt;取过来的值是字符型&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&quot;数据类型转换&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#数据类型转换&quot;&gt;&lt;/a&gt; 数据类型转</summary>
+      
+    
+    
+    
+    <category term="笔记" scheme="http://example.com/categories/%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="JavaScript" scheme="http://example.com/tags/JavaScript/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>npm包管理器常用模块安装命令</title>
+    <link href="http://example.com/2021/12/07/npm%E5%8C%85%E7%AE%A1%E7%90%86%E5%99%A8%E5%B8%B8%E7%94%A8%E6%A8%A1%E5%9D%97%E5%AE%89%E8%A3%85%E5%91%BD%E4%BB%A4/"/>
+    <id>http://example.com/2021/12/07/npm%E5%8C%85%E7%AE%A1%E7%90%86%E5%99%A8%E5%B8%B8%E7%94%A8%E6%A8%A1%E5%9D%97%E5%AE%89%E8%A3%85%E5%91%BD%E4%BB%A4/</id>
+    <published>2021-12-07T11:20:06.000Z</published>
+    <updated>2021-12-07T11:21:18.798Z</updated>
+    
+    <content type="html"><![CDATA[<ul><li><p>cnpm 安装（淘宝镜像）</p><pre class="highlight"><code class=""> npm install -g cnpm -registry=https://registry.npm.taobao.org</code></pre></li><li><p>Vue.js 安装（最新稳定版）</p><pre class="highlight"><code class="">npm install vue</code></pre></li><li><p>Vue CLI 安装</p><pre class="highlight"><code class="">npm install -g @vue/cli</code></pre></li><li><p>Axios 安装</p><pre class="highlight"><code class="">npm install axios</code></pre></li><li><p>Mock.js 安装</p><pre class="highlight"><code class="">npm install mockjs</code></pre></li><li><p>Element UI 安装</p><pre class="highlight"><code class="">npm i element-ui -S</code></pre></li><li><p>ECharts 安装</p><pre class="highlight"><code class="">npm install echarts --save</code></pre></li><li><p>Hexo 安装</p><pre class="highlight"><code class="">npm install hexo-cli -g</code></pre></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;cnpm 安装（淘宝镜像）&lt;/p&gt;
+&lt;pre class=&quot;highlight&quot;&gt;&lt;code class=&quot;&quot;&gt; npm install -g cnpm -registry=https://registry.npm.taobao.org
+&lt;/code&gt;&lt;</summary>
+      
+    
+    
+    
+    <category term="笔记" scheme="http://example.com/categories/%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="npm" scheme="http://example.com/tags/npm/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://example.com/2021/12/07/hello-world/"/>
+    <id>http://example.com/2021/12/07/hello-world/</id>
+    <published>2021-12-07T11:17:09.651Z</published>
+    <updated>2021-10-04T13:21:24.523Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="quick-start"><a class="markdownIt-Anchor" href="#quick-start"></a> Quick Start</h2><h3 id="create-a-new-post"><a class="markdownIt-Anchor" href="#create-a-new-post"></a> Create a new post</h3><pre class="highlight"><code class="bash">$ hexo new <span class="hljs-string">"My New Post"</span></code></pre><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="run-server"><a class="markdownIt-Anchor" href="#run-server"></a> Run server</h3><pre class="highlight"><code class="bash">$ hexo server</code></pre><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="generate-static-files"><a class="markdownIt-Anchor" href="#generate-static-files"></a> Generate static files</h3><pre class="highlight"><code class="bash">$ hexo generate</code></pre><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="deploy-to-remote-sites"><a class="markdownIt-Anchor" href="#deploy-to-remote-sites"></a> Deploy to remote sites</h3><pre class="highlight"><code class="bash">$ hexo deploy</code></pre><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>前端学习路径</title>
@@ -39,13 +114,15 @@
     <category term="前端" scheme="http://example.com/categories/%E5%89%8D%E7%AB%AF/"/>
     
     
+    <category term="JavaScript" scheme="http://example.com/tags/JavaScript/"/>
+    
+    <category term="npm" scheme="http://example.com/tags/npm/"/>
+    
     <category term="计算机网络" scheme="http://example.com/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
     
     <category term="HTML" scheme="http://example.com/tags/HTML/"/>
     
     <category term="CSS" scheme="http://example.com/tags/CSS/"/>
-    
-    <category term="JavaScript" scheme="http://example.com/tags/JavaScript/"/>
     
     <category term="Git" scheme="http://example.com/tags/Git/"/>
     
@@ -56,8 +133,6 @@
     <category term="Angular" scheme="http://example.com/tags/Angular/"/>
     
     <category term="Webpack" scheme="http://example.com/tags/Webpack/"/>
-    
-    <category term="npm" scheme="http://example.com/tags/npm/"/>
     
     <category term="yarn" scheme="http://example.com/tags/yarn/"/>
     
@@ -93,26 +168,6 @@
     
     
     <category term="MarkDown" scheme="http://example.com/tags/MarkDown/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="http://example.com/2021/10/04/hello-world/"/>
-    <id>http://example.com/2021/10/04/hello-world/</id>
-    <published>2021-10-04T13:21:24.523Z</published>
-    <updated>2021-10-04T13:21:24.523Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="quick-start"><a class="markdownIt-Anchor" href="#quick-start"></a> Quick Start</h2><h3 id="create-a-new-post"><a class="markdownIt-Anchor" href="#create-a-new-post"></a> Create a new post</h3><pre class="highlight"><code class="bash">$ hexo new <span class="hljs-string">"My New Post"</span></code></pre><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="run-server"><a class="markdownIt-Anchor" href="#run-server"></a> Run server</h3><pre class="highlight"><code class="bash">$ hexo server</code></pre><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="generate-static-files"><a class="markdownIt-Anchor" href="#generate-static-files"></a> Generate static files</h3><pre class="highlight"><code class="bash">$ hexo generate</code></pre><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="deploy-to-remote-sites"><a class="markdownIt-Anchor" href="#deploy-to-remote-sites"></a> Deploy to remote sites</h3><pre class="highlight"><code class="bash">$ hexo deploy</code></pre><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
-      
-    
-    
-    
     
   </entry>
   

@@ -383,10 +383,10 @@ a:hover {
 code {
   font-family: Consolas,圆体-简,圆体-繁;
   background-color: #333;
-  color: var(--second-text-color);
+  color: hsl(355, 65%, 65%);
   font-size: 1em;
   /* font-weight: bold; */
-  padding: 0.25em 0.5em 0.25em;
+  padding: 2px 3px 2px 3px;
 }
 
 hr {
