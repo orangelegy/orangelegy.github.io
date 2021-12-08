@@ -111,7 +111,7 @@
       border-color: var(--blockquote-border-color); }
     :root.appearance-dark .content table th, :root.appearance-dark .content table tr, :root.appearance-dark .content table td, :root.appearance-auto .content table th, :root.appearance-auto .content table tr, :root.appearance-auto .content table td, :root.appearance-light .content table th, :root.appearance-light .content table tr, :root.appearance-light .content table td {
       border-color: var(--table-border-color);
-      color: var(--second-text-color) !important; }
+      color: var(--second-text-color); }
     :root.appearance-dark .content table th, :root.appearance-auto .content table th, :root.appearance-light .content table th {
       background-color: var(--table-th-bg-color); }
     :root.appearance-dark .content table tr:nth-child(2n), :root.appearance-auto .content table tr:nth-child(2n), :root.appearance-light .content table tr:nth-child(2n) {
