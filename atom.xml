@@ -76,9 +76,9 @@
     <link href="http://example.com/2021/12/07/npm%E5%8C%85%E7%AE%A1%E7%90%86%E5%99%A8%E5%B8%B8%E7%94%A8%E6%A8%A1%E5%9D%97%E5%AE%89%E8%A3%85%E5%91%BD%E4%BB%A4/"/>
     <id>http://example.com/2021/12/07/npm%E5%8C%85%E7%AE%A1%E7%90%86%E5%99%A8%E5%B8%B8%E7%94%A8%E6%A8%A1%E5%9D%97%E5%AE%89%E8%A3%85%E5%91%BD%E4%BB%A4/</id>
     <published>2021-12-07T11:20:06.000Z</published>
-    <updated>2021-12-07T11:21:18.798Z</updated>
+    <updated>2021-12-13T12:11:58.150Z</updated>
     
-    <content type="html"><![CDATA[<ul><li><p>cnpm 安装（淘宝镜像）</p><pre class="highlight"><code class=""> npm install -g cnpm -registry=https://registry.npm.taobao.org</code></pre></li><li><p>Vue.js 安装（最新稳定版）</p><pre class="highlight"><code class="">npm install vue</code></pre></li><li><p>Vue CLI 安装</p><pre class="highlight"><code class="">npm install -g @vue/cli</code></pre></li><li><p>Axios 安装</p><pre class="highlight"><code class="">npm install axios</code></pre></li><li><p>Mock.js 安装</p><pre class="highlight"><code class="">npm install mockjs</code></pre></li><li><p>Element UI 安装</p><pre class="highlight"><code class="">npm i element-ui -S</code></pre></li><li><p>ECharts 安装</p><pre class="highlight"><code class="">npm install echarts --save</code></pre></li><li><p>Hexo 安装</p><pre class="highlight"><code class="">npm install hexo-cli -g</code></pre></li></ul>]]></content>
+    <content type="html"><![CDATA[<ul><li><p>cnpm 安装（淘宝镜像）</p><pre class="highlight"><code class="">npm install -g cnpm -registry=https://registry.npm.taobao.org</code></pre></li><li><p>Vue.js 安装（最新稳定版）</p><pre class="highlight"><code class="">npm install vue</code></pre></li><li><p>Vue CLI 安装</p><pre class="highlight"><code class="">npm install -g @vue/cli</code></pre></li><li><p>Axios 安装</p><pre class="highlight"><code class="">npm install axios</code></pre></li><li><p>Mock.js 安装</p><pre class="highlight"><code class="">npm install mockjs</code></pre></li><li><p>Element UI 安装</p><pre class="highlight"><code class="">npm i element-ui -S</code></pre></li><li><p>ECharts 安装</p><pre class="highlight"><code class="">npm install echarts --save</code></pre></li><li><p>Hexo 安装</p><pre class="highlight"><code class="">npm install hexo-cli -g</code></pre></li></ul>]]></content>
     
     
       
@@ -86,8 +86,8 @@
     <summary type="html">&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;cnpm 安装（淘宝镜像）&lt;/p&gt;
-&lt;pre class=&quot;highlight&quot;&gt;&lt;code class=&quot;&quot;&gt; npm install -g cnpm -registry=https://registry.npm.taobao.org
-&lt;/code&gt;&lt;</summary>
+&lt;pre class=&quot;highlight&quot;&gt;&lt;code class=&quot;&quot;&gt;npm install -g cnpm -registry=https://registry.npm.taobao.org
+&lt;/code&gt;&lt;/</summary>
       
     
     
