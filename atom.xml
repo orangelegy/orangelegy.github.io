@@ -124,11 +124,11 @@
     
     <category term="JavaScript" scheme="http://example.com/tags/JavaScript/"/>
     
+    <category term="HTML" scheme="http://example.com/tags/HTML/"/>
+    
     <category term="npm" scheme="http://example.com/tags/npm/"/>
     
     <category term="计算机网络" scheme="http://example.com/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
-    
-    <category term="HTML" scheme="http://example.com/tags/HTML/"/>
     
     <category term="CSS" scheme="http://example.com/tags/CSS/"/>
     
