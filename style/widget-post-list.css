@@ -169,7 +169,7 @@
 
 .post-container .tag-widget > section {
   overflow: auto;
-  max-height: 30vh; }
+  max-height: 40vh; }
 
 .post-container .tag-widget.is-in-tag-page > section {
   max-height: 80vh; }

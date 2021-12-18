@@ -16,14 +16,14 @@
     transform: rotate(359deg);
   }
 }
-@font-face {
+/* @font-face {
   font-family: '圆体';
-  src: url(../../diy-font/圆体-简繁\ 常规体.ttc);
+  src: url(../../diy-font/圆体-简繁常规体.ttc);
 }
 @font-face {
   font-family: Consolas;
   src: url(../../diy-font/consola-1.ttf);
-}
+} */
 .delete, .modal-close, .button, .file, .breadcrumb, .pagination-previous,
 .pagination-next,
 .pagination-link,
@@ -312,6 +312,7 @@ table {
   /* border-collapse: collapse; */
   border-spacing: 0;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  margin-bottom: 15px;
 }
 
 td,
@@ -376,7 +377,7 @@ a {
   color: #61afef;
   cursor: pointer;
   text-decoration: none;
-  font-family:'圆体';
+  font-family: 'Microsoft YaHei',STHeiti,SimHei;
 }
 
 a strong {
@@ -1981,9 +1982,9 @@ fieldset[disabled] .button {
 
 .content blockquote {
   /* background-color: rgba(16, 17, 20, 0.5); */
-  border-left: 5px solid #dbdbdb;
   padding: 1.25em 1.5em;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  margin-bottom: 15px;
 }
 
 .content ol {
@@ -3224,6 +3225,7 @@ a.tag:hover {
   max-width: 100%;
   overflow: hidden;
   padding: 0;
+  margin-bottom: 20px;
 }
 
 .highlight pre {
