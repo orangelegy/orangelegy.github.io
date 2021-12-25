@@ -1,4 +1,5 @@
 @import url("//at.alicdn.com/t/font_2266068_otkvzqnxk0g.css");
+@import url(https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0/katex.min.css);
 :root.appearance-light {
   --primary-bg-color: #f9f9f9;
   --second-bg-color: #fff;
